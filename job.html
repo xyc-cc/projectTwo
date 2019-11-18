@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>求职|找工作|最新招聘信息-BOSS</title>
+    <meta name="keywords" content="BOSS直聘,直聘网,招聘网,人才网,找工作,求职">
+    <meta name="description" content="BOSS直聘是权威领先的招聘网，开启人才网招聘求职新时代，让求职者与Boss直接开聊、加快面试、即时反馈，找工作就来BOSS直聘和Boss开聊吧！">
+    <meta name="applicable-device" content="pc">
+    <meta name="mobile-agent" content="format=html5;url=https://m.zhipin.com/">
+    <link rel="stylesheet" href="./styles/public.css">
+    <link rel="stylesheet" href="./styles/job.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="./mock/mock.js"></script>
+    <script src="./scripts/job.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="headerNav">
+            <div class="wrap">
+                <!-- 头部左边块 -->
+                <div class="headerNavLf floatLeft">
+                    <a href="" class="floatLeft"><span id="headerLogo"></span></a>
+
+                    <div class="floatLeft" id="location">
+                        <div id="citysDown" class="citysDown scrollbar" style="display: none;">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <div id="citysDown2" class="citysDown" style="display: none;">
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <ul class="floatLeft">
+                        <li id="home">首页</li>
+                        <li id="position" class="active">职位</li>
+                        <li id="company">公司</li>
+                        <li id="app">APP</li>
+                        <li id="information">资讯</li>
+                    </ul>
+
+                </div>
+
+                <!-- 头部右边块 -->
+                <div class="headerNavRg floatRight">
+                    <form action="" id="headerActionBox" class="floatRight">
+                        <button id="register">注册</button>
+                        <button id="signIn">登录</button>
+                    </form>
+                    <div id="myJob" class="floatRight">
+                        <ul>
+                            <li>上传简历</li>
+                            <li id="findJob">我要找工作
+                                <div id="hot">hot</div>
+                            </li>
+                            <li>我要招聘</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="headerLast">
+            <div class="headerBottom wrap">
+                <div class="searchBox">
+                    <form action="" class="floatLeft">
+                        <div class="inputBox floatLeft">
+                            <div class="searchDown floatLeft">
+                                杭州
+                                <span class="arrow"></span>
+                            </div>
+
+                            <div class="searchDown floatLeft">
+                                <input id="headerSearch" type="text" placeholder="搜索职位、公司">
+                            </div>
+
+                            <div class="searchDown floatLeft">
+                                职位类型
+                                <span class="arrow"></span>
+                            </div>
+
+                            <div class="searchDown floatLeft">
+                                公司行业
+                                <span class="arrow"></span>
+                            </div>
+
+                        </div>
+
+                        <div class="floatLeft">
+                            <button>
+                                <div class="SearchIcon">
+
+                                </div>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="citysBox" class="floatLeft wrap">
+                    <div class="floatLeft">
+                        <span>杭州</span>
+                        <span class="rightArrow"></span>
+                    </div>
+                    <div class="floatLeft">
+                        <span class="unlimited">不限</span>
+                        <span class="rightArrow"></span>
+                    </div>
+                    <div class="hotCitysBox">
+                        <span class="floatLeft">热门城市：</span>
+                        <ul id="hotCitys" class="floatLeft">
+
+                        </ul>
+                        <span id="allCitys" class="floatLeft">全部城市</span>
+                    </div>
+                </div>
+
+                <div class="areaBox floatLeft">
+                    <span class="floatLeft">不限</span>
+                    <ul id="area" class="floatLeft">
+
+                    </ul>
+                </div>
+
+                <div class="floatLeft headerNavs">
+                    <div class="searchDown floatLeft">
+                        工作经验
+                        <span class="arrow"></span>
+                        <ul class="downMenu">
+                            <li><a>不限</a></li>
+                            <li><a>在校生</a></li>
+                            <li><a>应届生</a></li>
+                            <li><a>1年以内</a></li>
+                            <li><a>1-3年</a></li>
+                            <li><a>3年以上</a></li>
+                        </ul>
+                    </div>
+                    <div class="searchDown floatLeft">
+                        学历要求
+                        <span class="arrow"></span>
+                        <ul class="downMenu">
+                            <li><a>不限</a></li>
+                            <li><a>在校生</a></li>
+                            <li><a>应届生</a></li>
+                            <li><a>1年以内</a></li>
+                            <li><a>1-3年</a></li>
+                            <li><a>3年以上</a></li>
+                        </ul>
+                    </div>
+                    <div class="searchDown floatLeft">
+                        薪资要求
+                        <span class="arrow"></span>
+                        <ul class="downMenu">
+                            <li><a>不限</a></li>
+                            <li><a>在校生</a></li>
+                            <li><a>应届生</a></li>
+                            <li><a>1年以内</a></li>
+                            <li><a>1-3年</a></li>
+                            <li><a>3年以上</a></li>
+                        </ul>
+                    </div>
+                    <div class="searchDown floatLeft">
+                        融资阶段
+                        <span class="arrow"></span>
+                        <ul class="downMenu">
+                            <li><a>不限</a></li>
+                            <li><a>在校生</a></li>
+                            <li><a>应届生</a></li>
+                            <li><a>1年以内</a></li>
+                            <li><a>1-3年</a></li>
+                            <li><a>3年以上</a></li>
+                        </ul>
+                    </div>
+                    <div class="searchDown floatLeft">
+                        公司规模
+                        <span class="arrow"></span>
+                        <ul class="downMenu">
+                            <li><a>不限</a></li>
+                            <li><a>在校生</a></li>
+                            <li><a>应届生</a></li>
+                            <li><a>1年以内</a></li>
+                            <li><a>1-3年</a></li>
+                            <li><a>3年以上</a></li>
+                        </ul>
+                    </div>
+                    <span class="floatRight">清空筛选条件</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="citysAllBox" style="display:none">
+            <div>
+                <span>请选择城市</span>
+                <span id="close" class="close floatRight"></span>
+            </div>
+            <div>
+                <div id="fixedCitysBox">
+                    <ul id="fixedCitys" class="floatLeft">
+
+                    </ul>
+                </div>
+
+                <div id="fixedCitysMore" class="floatLeft">
+
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <div class="wrap">
+                <div id="mainLeft">
+
+                </div>
+                <div id="mainRight">
+
+                </div>
+                <div id="bottomNav">
+                    <div>
+                        <span>
+                            <</span> <span class="">1
+                        </span>
+                        <span class="">2</span>
+                        <span class="">3</span>
+                        <span>...</span>
+                        <span>></span>
+                    </div>
+                </div>
+
+                <div id="pleased">
+                    <div id="PleasedF">
+                        对搜索结果是否满意？
+                    </div>
+                    <div>
+                        <div class="noBox">
+                            <div class="no">
+
+                            </div>
+                            不满意
+                        </div>
+                        <div class="norBox">
+                            <div class="nor">
+
+                            </div>
+                            一 般
+                        </div>
+                        <div class="yesBox">
+                            <div class="yes">
+
+                            </div>
+                            满 意
+                        </div>
+                        <div>
+                            <input id="pleasedInput" type="text" placeholder="请填写更多建议">
+                            <button id="pleasedBtn">提交</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </header>
+
+
+
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <div class="floatLeft footerFont">
+                    <p>企业服务</p>
+                    <p><a href="">职位搜索</a></p>
+                    <p><a href="">新闻资讯</a></p>
+                    <p><a href="">BOSS直聘APP</a></p>
+                </div>
+                <div class="floatLeft footerFont">
+                    <p>使用与帮助</p>
+                    <p><a href="">用户协议与隐私政策</a></p>
+                    <p><a href="">防骗指南</a></p>
+                    <p><a href="">职位发布规则</a></p>
+                    <p><a href="">使用帮助</a></p>
+                </div>
+                <div class="floatLeft footerFont">
+                    <p>联系BOSS直聘</p>
+                    <p><a href="">北京华品博睿网络技术有限公司</a></p>
+                    <p><a href="">公司地址 北京市朝阳区太阳宫中路8号冠捷大厦302</a></p>
+                    <p><a href="">联系电话 010-84150633</a></p>
+                    <p><a href="">违法和不良信息举报邮箱 jubao@kanzhun.com</a></p>
+                </div>
+                <div class="floatRight footerFont footerMarginTop">
+                    <img src="./images/footer-logo.png" alt="">
+                    <p>企业服务热线和举报投诉 400 065 5799</p>
+                    <p>工作日 8:00 - 22:00</p>
+                    <p>休息日 9:30 - 18:30</p>
+                </div>
+            </div>
+            <div>
+                <div class="floatLeft footerBottom">
+                    <span class="important">Copyright © 2019 BOSS直聘
+                        <strong>京ICP备14013441号-5</strong><strong>京ICP证150923号</strong><strong><a href=""> <img
+                                    src="./images/icon-badge-1.png" alt=""> 电子营业执照</a></strong><strong><a
+                                href="">京公网安备11010502032801 <img src="./images/beian.png" alt="">
+                            </a></strong><strong><a href="">首都网警</a></strong><strong><a href="">人力资源服务许可证</a></strong>
+                    </span>
+                </div>
+                <div class="floatRight">
+                    <div class="footerIcon floatRight">APP</div>
+                    <div class="footerIcon floatRight"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+                    <div class="footerIcon floatRight"><i class="fa fa-wechat" aria-hidden="true"></i></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footerInter">
+            <div class="wrap">
+                <div class="floatLeft">友情链接：</div>
+                <div class="friends floatLeft">
+                    <ul>
+                        <li><a href="">慧聪网</a></li>
+                        <li><a href="">企查查</a></li>
+                        <li><a href="">新东方在线</a></li>
+                        <li><a href="">有声小说</a></li>
+                        <li><a href="">兼职</a></li>
+                        <li><a href="">找工作</a></li>
+                        <li><a href="">手机中国</a></li>
+                        <li><a href="">百姓健康网</a></li>
+                        <li><a href="">西游汽车网</a></li>
+                        <li><a href="">考试资料网</a></li>
+                        <li><a href="">孔夫子旧书网</a></li>
+                        <li><a href="">猪八戒网</a></li>
+                        <li><a href="">中公事业编</a></li>
+                        <li><a href="">查字典</a></li>
+                        <li><a href="">装修</a></li>
+                        <li><a href="">前瞻网</a></li>
+                        <li><a href="">装修网</a></li>
+                        <li><a href="">加盟</a></li>
+                        <li><a href="">招标网</a></li>
+                        <li><a href="">在职研究生</a></li>
+                        <li><a href="">图片素材</a></li>
+                        <li><a href="">什么值得买</a></li>
+                        <li><a href="">2018信息港</a></li>
+                        <li><a href="">律师</a></li>
+                        <li><a href="">装修网</a></li>
+                        <li><a href="">经理人分享</a></li>
+                        <li><a href="">中国品牌网</a></li>
+                        <li><a href="">楼盘网</a></li>
+                        <li><a href="">CAD图纸</a></li>
+                        <li><a href="">公司招聘列表</a></li>
+                        <li><a href="">权查查</a></li>
+                        <li><a href="">电影网</a></li>
+                        <li><a href="">天眼查</a></li>
+                        <li><a href="">顺企网</a></li>
+                        <li><a href="">招标网</a></li>
+                    </ul>
+                </div>
+                <div class="downMenu floatRight">
+                    <div class="footerDownArrow  floatRight"></div>
+                    <div class="down floatRight">展开</div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

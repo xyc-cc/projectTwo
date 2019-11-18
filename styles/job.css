@@ -1,0 +1,493 @@
+
+.searchBox{
+    width: 884px;
+    padding-top: 20px;
+}
+
+#headerLast{
+    height: 1903px;
+    height: 196px;
+    box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, .1);
+    background:#fff;
+}
+
+.searchBox form{
+    border: 1px solid #55cbc4;
+    margin: 1px;
+}
+
+.formActive{
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .2);
+}
+
+.inputBox{
+    font-weight: 400;
+    font-size: 13px;
+    padding: 6px 15px 8px 15px;
+    height: 28px;
+    line-height: 28px;
+    color: #61687c;
+}
+
+.searchBox form button{
+    background:#55cbc4;
+    height: 44px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.searchBox form button:hover{
+    background:#6adbcf;
+    transition: all 500ms;
+}
+
+.searchBox form input{
+    width: 470px;
+    text-indent: 10px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.searchBox form .SearchIcon{
+    display: inline-block;
+    background: url('../images/icons.png') no-repeat 0 -148px;
+    transform: scale(1.1);
+    width: 25px;
+    height: 25px;
+    line-height: 44px;
+}
+
+
+.arrow{
+    background: url('../images/icons.png') no-repeat -1px -2050px;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+.searchDown{
+    border-right: 1px solid #f2f2f5;
+    cursor: pointer;
+    position: relative;
+}
+
+.inputBox .searchDown:nth-child(2){
+    border: 0;
+}
+
+main{
+    overflow: hidden;
+}
+
+#headerLast .wrap{
+    overflow: visible;
+}
+
+.rightArrow{
+    background: url('../images/icons.png') no-repeat 0 -1560px;
+    width: 28px;
+    height: 10px;
+    display: inline-block;
+}
+
+#citysBox{
+    border-bottom: 1px solid #eef0f5;
+}
+
+#citysBox span{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+#citysBox div:first-child span{
+    color: #d6d8dd;
+}
+
+#citysBox div{
+    margin-right: 30px;
+}
+
+.unlimited{
+    color: salmon;
+    border: 1px solid #eef0f5;
+    padding: 0 10px;
+}
+
+#hotCitys li{
+    width: 40px;
+    height: 38px;
+    float: left;
+    line-height: 38px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#hotCitys li a{
+    color: #414a60;
+    font-size: 12px;
+}
+
+#hotCitys li:hover a{
+    color: coral;
+    transition: all 500ms;
+}
+
+.hotCitysBox{
+    margin-top: 15px;
+    width: 1175px;
+}
+
+#allCitys{
+    display: inline-block;
+    float: right;
+    cursor:pointer;
+}
+
+.areaBox{
+    width: 1185px;
+}
+
+.areaBox span:first-child{
+    margin-top: 10px;
+    color: coral;
+    display: inline-block;
+}
+
+#area{
+    margin-top:10px;
+}
+
+#area li{
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#area li:hover a{
+    color: coral;
+    transition: all 500ms;
+}
+
+#area li a{
+    color: #61687c;
+    font-size: 13px;
+}
+
+.headerNavs{
+    margin-top: 10px;
+    padding-top: 5px;
+    border-top: 1px solid #eef0f5;
+    width: 1185px;
+}
+
+.headerNavs .searchDown{
+    font-size: 13px;
+    color: #414a60;
+    margin-right: 70px;
+    border: 0;
+    height:26px;
+}
+
+.headerNavs span{
+    font-size: 13px;
+    color: #61687c;
+    cursor:pointer;
+}
+
+.searchDown .downMenu{
+    width: 160px;
+    max-height: 400px;
+    box-shadow: 0 3px 6px rgba(6,0,1,.05);
+    top: 3px;
+    border-top: 1px #e3e7ed solid;
+    background: #fff;
+    z-index: 1000;
+    position: absolute;
+    top: 27px;
+    display: none;
+}
+
+.downMenu li{
+    width: 160px;
+    line-height:42px;
+    padding: 0 15px;
+}
+
+.searchDown .downMenu li:hover{
+    background: #f2f5f9;
+    transition: all 500ms;
+}
+
+
+.downMenu li a{
+    color: #8d92a1;
+}
+
+
+.searchDown:hover .downMenu {
+    display: block;
+}
+
+#citysAllBox{
+    width: 900px;
+    height: 550px;
+    background: white;
+    margin: 0 auto;
+    display: fixed;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.close{
+    background: url('../images/icons.png') no-repeat 0 -1438px;
+    width: 15px;
+    height: 15px;
+    transform: scale(0.9);
+}
+
+#citysAllBox div:first-child{
+    width:900px ;
+}
+
+#citysAllBox div:first-child span{
+    display: inline-block;
+    font-size: 16px;
+    color: #61687c; 
+    margin: 15px;
+    cursor: pointer;
+}
+
+#fixedCitys{
+    width: 150px;
+    height: 489px;
+    padding: 5px 0 0 ;
+    overflow: auto;
+}
+
+#fixedCitys li{
+    width: 100px;
+    height: 20px;
+    padding: 10px 0px 10px 24px;
+    cursor: pointer;
+}
+
+#fixedCitys .active{
+    color: #5dd5c8;
+    border-left: 10px solid #55cbc4;
+    text-indent: -10px;
+
+}
+
+#fixedCitysMore{
+    height: 40px;
+    width: 725px;
+    padding: 10px 0 10px 24px;
+}
+
+#fixedCitysMore span{
+    display:inline-block;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#fixedCitysMore span:hover{
+    color:#55cbc4;
+    transition: all 500ms;
+}
+
+#mainLeft{
+    width: 884px;
+    background: white;
+    margin-top: 30px;
+}
+
+#mainLeft ul li{
+    width: 854px;
+    height: 69px;
+    cursor: pointer;
+    padding: 20px  0 0 30px;
+}
+
+#mainLeft ul li:hover{
+    background: #f8f9fb;
+    transition: all 500ms;
+}
+
+#mainLeft ul li div:nth-child(2){
+    width: 824px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #eef0f5 ;
+}
+
+#mainLeft ul li span{
+    display: inline-block;
+    font-size: 16px;
+}
+
+#mainLeft ul li div:first-child span:first-child{
+    color:#00c2b3;
+}
+
+#mainLeft ul li div:nth-child(2) span{
+    font-size: 12px;
+    color: #8d92a1;
+    margin-top: 10px;
+}
+
+#mainLeft ul li div:nth-child(2) span:last-child{
+    position: absolute;
+    left: 39%;
+}
+
+#mainLeft ul li span:nth-child(2){
+    color:#fc703e;
+    margin-left: 20px;
+}
+
+#mainLeft ul li span:nth-child(3){
+    position: absolute;
+    left: 40%;
+}
+
+#mainLeft ul li span:nth-child(3):hover{
+    color: #5dd5c8;
+    transition: all 300ms;
+}
+
+#mainLeft ul li span:nth-child(4){
+    float: right;
+    font-size: 13px;
+    margin-right: 30px;
+}
+
+#bottomNav{
+    background: white;
+    width: 884px;
+    padding:10px 0;
+}
+
+#bottomNav div{
+    width: 325px;
+    margin: 0 auto;
+}
+
+#bottomNav div span{
+    display:inline-block;
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    margin:0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bottomNav div span:hover,
+#bottomNav div span:first-child:hover,
+#bottomNav div span:last-child:hover{
+    color: #55cbc4;
+    transition: all 300ms;
+}
+
+
+#bottomNav div span:first-child,
+#bottomNav div span:last-child{
+    border: 1px solid #e3e7ed; 
+    color: #e3e7ed;
+    cursor: pointer;
+}
+
+
+.bNavActive{
+    background: #5dd5c8;
+    color: white;
+}
+
+#pleased{
+    margin-top: 10px;
+    background: white;
+    padding: 20px 30px;
+    width: 824px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+#pleasedF{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #61687c;
+}
+
+#pleased div:last-child{
+    margin-top: 10px;
+}
+
+.noBox,
+.norBox,
+.yesBox{
+    float: left;
+    width: 40px;
+    height: 66px;
+    margin-right: 45px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.noBox:hover,
+.norBox:hover,
+.yesBox:hover{
+    color: #6adbcf;
+    cursor: pointer;
+}
+
+.no,
+.nor,
+.yes{
+    width: 37px;
+    height: 32px;
+    margin-bottom: 10px;
+}
+
+.no{
+    background: url('../images/smile-face.png') no-repeat 4px 0;
+}
+
+.nor{
+    background: url('../images/smile-face.png') no-repeat -96px 0 ;
+}
+
+.yes{
+    background: url('../images/smile-face.png') no-repeat -192px 0 ;
+}
+
+.noBox:hover .no{
+    background: url('../images/smile-face.png') no-repeat -44px 0;
+}
+
+.norBox:hover .nor{
+    background: url('../images/smile-face.png') no-repeat -144px 0;
+}
+
+.yesBox:hover .yes{
+    background: url('../images/smile-face.png') no-repeat -240px 0;
+}
+
+#pleasedInput{
+    width: 440px;
+    height: 62px;
+    font-size: 13px;
+    border: 1px solid #d6d8dd;
+    outline: none;
+}
+
+#pleasedBtn{
+    width: 92px;
+    height: 36px;
+    color:#f8f9fb ;
+    font-size: 16px;
+    margin-left: 20px ;
+    outline: none;
+}

@@ -1,0 +1,678 @@
+#headerLast img{
+    width: 373px;
+    margin-left: 50px;
+}
+
+#headerLast{
+    background: #5dd5cb;
+    height: 115px;
+    overflow:hidden;
+}
+
+#headerLastRight{
+    margin-right:60px;
+}
+
+#headerAction img{
+    width: 260px;
+    height:26px;
+    margin: 22px 0px 8px;
+    display: inline-block;
+}
+
+#headerLastRight input{
+    width: 170px;
+    height: 35px;
+    text-indent: 8px;
+    font-size: 12px;
+}
+
+#headerLastRight button{
+    width: 80px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    font-size: 12px;
+}
+
+#headerLastRight button:hover{
+    background: #6adbcf;
+    cursor:pointer;
+    transition: all 500ms;
+}
+
+#headerLastRight form{
+    position: relative;
+}
+
+#get{
+    position:absolute;
+    right: 100px;
+    bottom: 10px;
+}
+
+#get a {
+    font-size: 12px;
+    color: #5dd5cb;
+}
+
+main form{
+    font-size: 16px;
+}
+
+#jobClass{
+    width: 130px;
+    height: 50px;
+    cursor:pointer;
+    line-height: 50px;
+    background: white;
+    color: #61687c;
+}
+
+main{
+    overflow: hidden;
+    position: relative;
+}
+
+main input{
+    width: 664px;
+    height: 48px;
+    text-indent: 10px;
+}
+
+#jobClass,
+main input{
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .1);
+}
+
+#jobClass{
+    text-indent: 20px;
+}
+
+main button{
+    width: 140px;
+    height: 50px;
+    background: #5dd5cb;
+    color: white;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 0px 1px 1px #5dd5cb;
+}
+
+main form{
+    width: 936px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#hotJob span{
+    color: #9fa3b0;
+}
+
+#hotJob ul{
+    margin-left: 30px;
+}
+
+#hotJob li{
+    float: left;
+    list-style: none;
+    margin: 0 10px;
+}
+
+#hotJob li a{
+    color: #5dd5cb;
+    font-size: 14px;
+}
+
+#hotJob{
+    width: 936px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+main form:hover,
+.formFocus {
+    border: 1px solid #5dd5cb;
+    transition: all 500ms;
+}
+
+.downArrow{
+    width: 0px;
+    height: 0px;
+    border-top: 3px solid #61687c;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+#arrowBox{
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    position: absolute;
+    background: white;
+    top: 0px;
+    left:100px;
+}
+
+.mainNav{
+    margin-top: 30px;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.fontNav{
+    width: 384px;
+    height: 454px;
+    background: white;
+}
+
+#fontNav2{
+    position: absolute;
+    top: 550px;
+    z-index: 80;
+    height: 580px;
+    background: white;
+}
+
+#imgNav{
+    width:786px ;
+    height: 456px;
+    margin-left: 15px;
+}
+
+.fontNav ul{
+    width:384px ;
+    height: 454px;
+}
+
+.fontColorPub{
+    border-top: 1px dashed #9fa3b0 ;
+    position: absolute;
+    bottom: -456px;
+    padding: 7px 20px;
+    width: 344px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.fontNav div{
+    padding: 7px 20px;
+}
+
+.fontNav ul li{ 
+    list-style: none;   
+    padding: 7px 20px;
+    width: 344px;
+    height: 27px;
+    line-height: 27px;
+}
+
+.fontNav ul li:hover{ 
+    background: #00d7c6;
+}
+
+.fontNav ul li:hover a,
+.fontNav ul li:hover a:first-child{ 
+    color: white;
+}
+
+.fontNav ul li a:first-child{ 
+    font-weight: bolder;
+    font-size: 14px;
+    color: #414A60;
+    padding: 0;
+}
+
+#fontNav1 ul li,
+#fontNav2 ul li{
+    position: relative;
+}
+
+#fontNav1 ul li:hover .hoverMenu{
+    display: block;    
+}
+
+#fontNav2 ul li:hover .hoverMenu{
+    display: block;    
+}
+
+
+.fontNav ul li a{ 
+    font-size: 13px;
+    color: #616871;
+    padding: 0 0 0 12px;
+    cursor:pointer;
+}
+
+
+#imgNav img{
+    border: 0px;
+    cursor: pointer;
+    float: left;
+    margin: 1px;
+    overflow:hidden;
+}
+
+.mainFontNav1{
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.mainFontNav li:first-child a{
+    color: #5dd5cb ;
+}
+
+.mainFontNav li{
+    float: left;
+    margin-right: 40px;
+}
+
+.mainFontNav li a{
+    color: #61687c;
+}
+
+.mainFontNav li a:hover{
+    color: #5dd5cb;
+    transition: all 500ms;
+}
+
+
+.information{
+    width: 343px;
+    height: 90px;
+    background: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    cursor: pointer;
+    padding: 20px;
+    overflow:hidden
+}
+
+.fontIfm{
+    width: 100%;
+    border-bottom: 1px dashed #9fa3b0;
+    overflow: hidden;
+}
+
+.fontIfm span:first-child{
+    font-size: 14px;
+    color: #61687c;
+}
+
+.personIfm img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+.fontIfm:hover .fontColorChange{
+    color:#00d7c6;
+    transition: all 500ms;
+}
+
+
+.fontIfm p{
+    color: #414A60;
+    font-size: 12px;
+}
+
+.fontIfm span:nth-child(2){
+    display: block;
+    float: right;
+    color: red;
+}
+
+.personIfm span{
+    display: inline-block;
+    margin: 15px 7px 0px;
+    font-size: 12px;
+    color: #61687c;
+}
+
+.personIfm span:nth-child(2){
+    color: black;
+    font-size: 14px;
+}
+
+.information:hover{
+    box-shadow:0px 0px 5px 1px rgba(100, 100, 100, .1)
+}
+
+.more{
+    width: 384px;
+    height: 34px;
+    line-height: 34px;
+    background: white;
+    color: #5dd5cb;
+    display: block;
+    margin: 0 auto;
+    box-shadow: none;
+    border: 1px solid #00d7c6;
+}
+
+.moreBtn{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.more:hover{
+    background: #00d7c6;
+    color: white;
+    transition: all 500ms;
+}
+
+#informationBox2 .information{
+    width: 244px;
+    height: 100px;
+    float: left;
+    cursor: pointer;
+    padding: 20px;
+    overflow:hidden
+}
+
+#informationBox{
+    overflow: hidden;
+}
+
+#informationBox2 img{
+    width: 57px;
+    height: 57px;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.company{
+    overflow: hidden;
+    border-bottom: 1px dashed #EDEDED;
+}
+
+.company p{
+    width: 185px;
+    text-align: right;
+    margin: 0px 0px 15px;
+}
+
+.company :hover p:first-child{
+    color: #00d7c6;
+    transition: 500ms all;
+}
+
+.company  p:last-child{
+    font-size: 12px;
+    color: #9fa3b0;
+}
+
+.numIfm strong{
+    color: #00d7c6;
+}
+
+.numIfm{
+    color: #9fa3b0;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+#informationBox2 .personIfm span{
+    font-size: 12px;
+    color: #61687c;
+}
+
+#citys{
+    width: 1185px;
+    height: 168px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#citysRoll li{
+    margin-left: 4px;
+    width: 193px;
+    float: left;
+}
+
+#citys li img{
+    width:193px;
+    height: 80px;
+    cursor: pointer;
+}
+
+#citys li img:hover{
+    opacity: 0.7;
+}
+
+.citysRoll{
+    width: 1385px;
+    height: 168px;
+    position: absolute;
+}
+
+.active{
+    transition: all 500ms;
+}
+
+.Arrow{
+    width: 40px;
+    height: 120px;
+    background: rgba(0, 0, 0, .3);
+    position: absolute;
+    cursor: pointer;
+}
+
+.Arrow:hover{
+    background: rgba(0, 0, 0, .5);
+    transition: all 500ms;
+}
+
+#leftArrowBox{
+    left: 4px;
+    top: 20px;
+}
+
+#rightArrowBox{
+    right: 3px;
+    top: 20px;
+}
+
+#leftArrow{
+    border: solid #ededed;
+    border-width: 0 2px 2px 0;
+    padding: 12px;
+    margin-top:50px;
+    margin-left: 10px;
+    transform: rotate(135deg);
+}
+
+#rightArrow{
+    border: solid #ededed;
+    border-width: 0 2px 2px 0;
+    padding: 12px;
+    margin-top:50px;
+    margin-right: 10px;
+    transform: rotate(-45deg);
+} 
+
+.jobSearchFixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background: white;
+    z-index: 90;
+}
+
+.jobSearchFixed::before{
+    content: "";
+    background: url("../images/headlogo.png") no-repeat 0px 0px ;
+    width: 110px;
+    height: 36px;
+    background-size: 100%;
+    position: absolute;
+    top: 35px;
+    left: 350px;
+}
+
+.hoverMenu{
+    width: 688px;
+    background: white;
+    height: auto;
+    position: absolute;
+    right: -728px;
+    top: -0px;
+    z-index: 80;
+    display: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.hoverMenuBox{
+    width: 90%;
+    height: 10px;
+}
+
+#fontNav1 .white .hoverMenuBox,
+#fontNav2 .white .hoverMenuBox{
+    width: 90%;
+    height: 10px;
+}
+
+#fontNav1 .white .hoverMenuBox a,
+#fontNav2 .white .hoverMenuBox a{
+    font-size: 12px;
+    font-weight: normal;
+    color: #9fa3b0;
+    display: block;
+    margin-right: 5px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#fontNav1 .white .hoverMenuBox a:hover,
+#fontNav2 .white .hoverMenuBox a:hover
+{
+    color: #00d7c6;
+    transform: all 500ms;
+}
+
+.hoverMenuLeft{
+    font-size: 12px;
+    color: #9fa3b0;
+    float: left;
+    width: 100px;
+    height: 12px;
+    line-height: 12px;
+}
+
+.hoverMenuRight{
+    font-size: 12px;
+    color: #9fa3b0;
+    float: left;
+    width: 400px;
+    margin-right:30px ;
+    margin-bottom: 15px;
+    height: 12px;
+    line-height: 12px;
+}
+
+
+.hoverMenu p{
+    width: 100%;
+    height: 10px;
+    line-height: 10px;
+}
+
+.citysDown{
+    position: absolute;
+    width: 120px;
+    height: 320px;
+    z-index: 1000;
+    color: #61687c;
+    overflow: auto;
+}
+
+#citysDown,#jobClasses{
+    background: #f8f9fa;
+}
+
+
+#citysDown2{
+    top: 50px;
+    left: 589px;
+    background: #f8f9fa;
+}
+
+#jobClasses2{
+    left: 120px;
+    background: #f8f9fa;
+}
+
+#headerNav #citysDown li,
+#jobClasses li,
+#jobClasses2 li,
+#headerNav #citysDown2 li{
+    width: 120px;
+    margin: 0;
+    padding: 0 10px;
+    color: #61687c;
+    font-size:12px;
+}
+
+
+
+
+#citysDown li:hover,
+#jobClasses li:hover,
+#citysDown2 li:hover,
+#jobClasses2 li:hover{
+    background: #f1f3f6;
+}
+
+#citysDown::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+#citysDown::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+        background: #d1d4db;
+    }
+#citysDown::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0);
+    }
+
+#jobClasses::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+#jobClasses::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+#jobClasses::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+        background: #d1d4db;
+    }
+#citysDown2::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 5px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 1px;
+    }
+#citysDown2::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+        background: #d1d4db;
+    }
+#citysDown2::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0);
+    }
