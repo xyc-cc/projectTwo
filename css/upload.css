@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, textarea, button {
+  margin: 0;
+  padding: 0;
+}
+
+address, cite, dfn, em, var, i {
+  font-style: normal;
+}
+
+body {
+  height: 100.1%;
+  min-width: 1184px;
+  color: #222;
+  background: #f6f6f8;
+  line-height: 26px;
+  color: #414a60;
+  font-size: 14px;
+  font-family: arial,verdana,helvetica,'PingFang SC','HanHei SC',STHeitiSC-Light,Microsoft Yahei,sans-serif;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+button, input, select, textarea {
+  font-size: 100%;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #414a60;
+}
+
+a:hover {
+  transition: all linear .2s;
+  color: #00d7c6;
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+:focus {
+  outline: none;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+  overflow: hidden;
+  height: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+html {
+  height: 100%;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .upload-btn, #wrap .sign-wrap .sign-form .sign-content .inner-box .btn-outline {
+  display: inline-block;
+  min-width: 112px;
+  box-sizing: content-box;
+  height: 36px;
+  line-height: 36px;
+  border: 1px #5dd5c8 solid;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  background: #5dd5c8;
+  text-align: center;
+  cursor: pointer;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .upload-btn:hover, #wrap .sign-wrap .sign-form .sign-content .inner-box .btn-outline:hover {
+  background-color: #6adbcf;
+  color: #fff;
+}
+
+#wrap {
+  position: relative;
+  overflow: visible;
+  overflow-x: hidden;
+  height: 100%;
+  min-height: 700px;
+  background: #5dd5c8 url(../img/newbg.png) center bottom no-repeat;
+}
+
+#wrap .sign-wrap {
+  width: 740px;
+  min-height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -370px;
+}
+
+#wrap .sign-wrap .sign-form {
+  display: block;
+  position: relative;
+  width: 740px;
+  height: 500px;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 6px 13px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box {
+  float: left;
+  width: 240px;
+  height: 100%;
+  color: #8d92a1;
+  background-color: #f8fcff;
+  border-radius: 10px 0 0 10px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box .logo {
+  display: block;
+  width: auto;
+  height: 40px;
+  margin: 88px 0 0 40px;
+  padding: 0;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box .logo img {
+  width: 42px;
+  height: 42px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul {
+  margin: 50px 0 0 40px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li {
+  margin-bottom: 50px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li i {
+  float: left;
+  width: 25px;
+  height: 42px;
+  background: url(../img/sign-slide.png) no-repeat;
+  background-size: 100% auto;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li:first-child i {
+  background-position: 0 10px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li:nth-child(2) i {
+  background-position: 0 -45px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li span {
+  display: block;
+  margin-left: 50px;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li span:first-of-type {
+  line-height: 22px;
+  color: #8d92a1;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#wrap .sign-wrap .sign-form .sign-slide-box ul li span:last-of-type {
+  margin-top: 2px;
+  line-height: 18px;
+  color: #b0b4c1;
+  font-size: 13px;
+}
+
+#wrap .sign-wrap .sign-form .sign-content {
+  position: relative;
+  margin-left: 240px;
+  height: 100%;
+  text-align: center;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box {
+  position: relative;
+  width: 324px;
+  padding-top: 68px;
+  margin: 0 auto;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box h4 {
+  margin-top: 54px;
+  line-height: 24px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .sub-title {
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .sub-title .red {
+  color: #fc703e;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .upload-btn {
+  display: block;
+  position: relative;
+  width: 324px;
+  height: 42px;
+  margin: 45px auto 20px;
+  line-height: 42px;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .upload-btn input {
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: -100%;
+  left: 0;
+  background: 0 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .btn-outline {
+  background: #fff;
+  width: 324px;
+  height: 42px;
+  line-height: 42px;
+  color: #8d92a1;
+  font-size: 14px;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .btn-outline .text-blue {
+  color: #00c2b3;
+}
+
+#wrap .sign-wrap .sign-form .sign-content .inner-box .btn-outline:hover {
+  background: #fff;
+  color: #8d92a1;
+}
