@@ -11,8 +11,8 @@
     <meta name="applicable-device" content="pc">
     <meta name="mobile-agent" content="format=html5;url=https://m.zhipin.com/">
     <link rel="stylesheet" href="./styles/public.css">
-    <link rel="stylesheet" href="./styles/job.css">
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/job.css">
     <script src="./mock/mock.js"></script>
     <script src="./scripts/job.js"></script>
 </head>
@@ -39,8 +39,8 @@
                     </div>
 
                     <ul class="floatLeft">
-                        <li id="home">首页</li>
-                        <li id="position" class="active">职位</li>
+                        <li id="home"><a href="./index.html" target="_self">首页</a> </li>
+                        <li id="position" class="active"> <a href="./job.html">职位</a> </li>
                         <li id="company">公司</li>
                         <li id="app">APP</li>
                         <li id="information">资讯</li>
@@ -213,61 +213,93 @@
             </div>
         </div>
 
-        <main>
-            <div class="wrap">
-                <div id="mainLeft">
 
-                </div>
-                <div id="mainRight">
-
-                </div>
-                <div id="bottomNav">
-                    <div>
-                        <span>
-                            <</span> <span class="">1
-                        </span>
-                        <span class="">2</span>
-                        <span class="">3</span>
-                        <span>...</span>
-                        <span>></span>
-                    </div>
-                </div>
-
-                <div id="pleased">
-                    <div id="PleasedF">
-                        对搜索结果是否满意？
-                    </div>
-                    <div>
-                        <div class="noBox">
-                            <div class="no">
-
-                            </div>
-                            不满意
-                        </div>
-                        <div class="norBox">
-                            <div class="nor">
-
-                            </div>
-                            一 般
-                        </div>
-                        <div class="yesBox">
-                            <div class="yes">
-
-                            </div>
-                            满 意
-                        </div>
-                        <div>
-                            <input id="pleasedInput" type="text" placeholder="请填写更多建议">
-                            <button id="pleasedBtn">提交</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
 
     </header>
 
+    <main>
+        <div class="wrap">
+            <div id="mainLeft">
+                <div id="mainRight">
+                    <div class="personBox">
+                        <p>各大行业职位任你选</p>
+                        <div class="phoneBox">
+                            <div class="phone floatLeft">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>+86
+                            </div>
+                            <input class="floatLeft" type="text" placeholder="手机号">
+                        </div>
+                        <div class="rollDivBox">
+                            <input type="text">
+                        </div>
+                        <div class="messageBox">
+                            <i class="fa fa-envelope-o fa-fw floatLeft"></i>
+                            <input type="text" class="floatLeft" placeholder="短信验证码">
+                            <span class="floatLeft">发送验证码</span>
+                        </div>
+                        <div class="btnBox">
+                            登录/注册
+                        </div>
+                        <div class="checkBox">
+                            <input type="checkbox">
+                            我已同意用户协议以及隐私政策
+                        </div>
+                    </div>
+                    <div class="uploadBox">
+                        <button>上传简历一键注册</button>
+                    </div>
+                    <div class="imgBox">
+                        <img src="./images/pro-1.png" alt="">
+                        <img src="./images/pro-2.png" alt="">
+                    </div>
+                </div>
+            </div>
 
+
+
+            <div id="bottomNav">
+                <div>
+                    <span id="prev">
+                        <</span> <span class="">1
+                    </span>
+                    <span class="">2</span>
+                    <span class="">3</span>
+                    <span>...</span>
+                    <span id="next">></span>
+                </div>
+            </div>
+
+            <div id="pleased">
+                <div id="PleasedF">
+                    对搜索结果是否满意？
+                </div>
+                <div>
+                    <div class="noBox">
+                        <div class="no">
+
+                        </div>
+                        不满意
+                    </div>
+                    <div class="norBox">
+                        <div class="nor">
+
+                        </div>
+                        一 般
+                    </div>
+                    <div class="yesBox">
+                        <div class="yes">
+
+                        </div>
+                        满 意
+                    </div>
+                    <div>
+                        <input id="pleasedInput" type="text" placeholder="请填写更多建议">
+                        <button id="pleasedBtn">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
     <footer>

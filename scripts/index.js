@@ -210,7 +210,8 @@ window.onload = function () {
 
 
 
-    //在中间部分左边的文字导航栏部分 添加3-4个数据
+    //在中间部分左边的文字导航栏部分 添加3-4个数据 面向
+    
     function CreateEa(arr, tag, parentE, number) {
         var _this = this;
         this.ul = document.getElementById(parentE).getElementsByTagName(tag)[0];
@@ -260,9 +261,9 @@ window.onload = function () {
             // divs.appendChild(div2);
             // div2.appendChild(div3);
             // div2.appendChild(div4);
-
         }
     }
+
     var jobs = {
         "name|1": [
             '后端开发',
@@ -291,6 +292,7 @@ window.onload = function () {
         ]
 
     }
+    
     var c1 = new CreateEa(jobs, "ul", "fontNav1", Math.round(Math.random() + 3));
     var c2 = new CreateEa(jobs, "ul", "fontNav2", Math.round(Math.random() + 3))
 

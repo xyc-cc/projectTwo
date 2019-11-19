@@ -16,6 +16,19 @@
     margin: 1px;
 }
 
+#headerNav #position a{
+    color: #00d7c6;
+}
+
+#headerNav ul li a{
+    color: white;
+} 
+
+#headerNav ul li:hover a{
+    color: #00d7c6;
+    transition: all 500ms;
+} 
+
 .formActive{
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, .2);
 }
@@ -239,6 +252,10 @@ main{
     margin: 0 auto;
     display: fixed;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+    position: absolute;
+    z-index: 999;
+    left: 25%;
+    top: 25%;    
 }
 
 .close{
@@ -303,13 +320,35 @@ main{
     width: 884px;
     background: white;
     margin-top: 30px;
+    position: relative;
 }
+
+.mainLeftBtn{
+    width: 114px;
+    height: 38px;
+    background: #00d7c6;
+    color:white;
+    font-size: 16px;
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    right: 0px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.mainLeftBtn:hover{
+    background: #6adbcf;
+    transition: all 500ms;
+}
+
 
 #mainLeft ul li{
     width: 854px;
     height: 69px;
     cursor: pointer;
     padding: 20px  0 0 30px;
+    position: relative;
 }
 
 #mainLeft ul li:hover{
@@ -328,6 +367,31 @@ main{
     font-size: 16px;
 }
 
+#mainLeft ul li .details{
+    width: 500px;
+    height: 419px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    background: white;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+    padding: 20px;
+    font-size: 16px;
+    z-index: 99;
+}
+
+#mainLeft ul li .details div:first-child{
+    font-size: 16px;
+    width: 100%;
+}
+
+#mainLeft ul li .details div:last-child{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 13px;
+    color: #8d92a1;
+}
+
 #mainLeft ul li div:first-child span:first-child{
     color:#00c2b3;
 }
@@ -343,10 +407,16 @@ main{
     left: 39%;
 }
 
-#mainLeft ul li span:nth-child(2){
+#mainLeft  ul li div:first-child span:nth-child(2){
     color:#fc703e;
     margin-left: 20px;
 }
+
+#mainLeft ul li div:nth-child(2) span:nth-child(2){
+    margin-left: 9px;
+}
+
+
 
 #mainLeft ul li span:nth-child(3){
     position: absolute;
@@ -481,6 +551,7 @@ main{
     font-size: 13px;
     border: 1px solid #d6d8dd;
     outline: none;
+    text-indent: 20px;
 }
 
 #pleasedBtn{
@@ -490,4 +561,118 @@ main{
     font-size: 16px;
     margin-left: 20px ;
     outline: none;
+}
+
+#mainRight{
+    width: 284px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: -320px;
+}
+
+.personBox{
+    width: 284px;
+    height: 395px;
+    background: #6adbcf;
+}
+
+.personBox p{
+    width: 145px;
+    color: white;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.phone{
+    color: #8d92a1;
+}
+
+.phone i{
+    color: #e3e7ed;
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.phoneBox,
+.rollDivBox,
+.messageBox,
+.btnBox
+{
+    width: 180px;
+    height: 22px;
+    background: white;
+    padding: 10px;
+    margin-top:30px ;
+    margin-left:35px ;
+}
+
+.checkBox{
+    width: 180px;
+    height: 22px;
+    padding: 10px;
+    margin-top:20px ;
+    margin-left:35px ;
+}
+
+.phoneBox input{
+    width: 100px;
+    margin-left: 20px;
+}
+
+.messageBox input{
+    width: 90px;
+}
+
+.messageBox span{
+    width: 70px;
+    display: inline-block;
+    cursor:pointer;
+    color: #00c2b3;
+}
+
+.messageBox i{
+    color: #d6d8dd;
+}
+
+.btnBox{
+    text-align: center;
+    font-size: 16px;
+    color: #55cbc4;
+    cursor: pointer;
+}
+
+.checkBox{
+    width: 190px;
+    font-size: 12px;
+    color: white;
+}
+
+.uploadBox{
+    margin-top: 15px;
+    background: white;
+    padding: 20px 30px;
+}
+
+.uploadBox button{
+    width: 205px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background: #55cbc4;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.uploadBox button:hover{
+    background: #6adbcf;
+    transition: all 500ms;
+}
+
+.imgBox img{
+    margin-top: 20px;
+    width: 284px;
+    height: 160px;
 }

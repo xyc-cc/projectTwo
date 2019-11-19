@@ -88,6 +88,12 @@ window.onload = function () {
             "马女士 | 高级前端工程师",
             "徐先生 | 资深前端工程师"
         ],
+        "skill|1":[
+            "负责项目开发",
+            "阿萨德看风景",
+            "我问我人工湖撇嵌入",
+            "完全二双方都"
+        ]
     }
 
     var hotCitys = document.getElementById("hotCitys");
@@ -174,12 +180,34 @@ window.onload = function () {
         var ul  = document.createElement("ul");
         mainLeft.appendChild(ul);
         for(var i = 0 ; i < 30 ; i++){
+            var btn = document.createElement("button");
+            btn.className = "mainLeftBtn";
+            btn.innerHTML = "立即沟通"
+            btn.style.display = 'none'
             var li = document.createElement("li");
             ul.appendChild(li);
-            var div1 = document.createElement("div")
-            var div2 = document.createElement("div")
-            li.appendChild(div1)
-            li.appendChild(div2)
+            var divNone = document.createElement("div");
+            divNone.className = "details";
+            divNone1 = document.createElement("div");
+            divNone2 = document.createElement("div");
+            divNone.appendChild(divNone1);
+            divNone1.innerHTML = "职位描述";
+            divNone.style.display = "none";
+
+            for(var j = 0 ; j < Math.round(Math.random()*10+10); j++){
+                divNone2.innerHTML += Mock.mock(people).skill + "<br>";
+            }
+
+            
+            divNone.appendChild(divNone2);
+            
+            
+            var div1 = document.createElement("div");
+            var div2 = document.createElement("div");
+            li.appendChild(div1);
+            li.appendChild(div2);
+            li.appendChild(btn);
+            li.appendChild(divNone);
             var span1 = document.createElement("span");
             var span2 = document.createElement("span");
             var span3 = document.createElement("span");
@@ -198,7 +226,45 @@ window.onload = function () {
             span4.innerHTML = Mock.mock(people).name;
             span5.innerHTML = Mock.mock(company).address;
             span6.innerHTML = Mock.mock(company).information;
+
         }
+
+        var lis = ul.getElementsByTagName("li");
+        
+        for(var j = 0 ; j < lis.length ; j++){
+
+
+            lis[j].onmouseover = function(){
+                this.getElementsByTagName("span")[3].style.display = 'none';
+                this.getElementsByTagName("button")[0].style.display  = "block";
+            }
+
+            lis[j].onmouseout = function(){
+                this.getElementsByTagName("span")[3].style.display = 'block';
+                this.getElementsByTagName("button")[0].style.display  = "none"
+            }
+
+            lis[j].getElementsByClassName("details")[0].onmouseover = function(){
+                this.style.display = "block"
+            }
+
+            lis[j].getElementsByClassName("details")[0].onmouseout = function(){
+                this.style.display = "none"
+            }
+            
+            lis[j].getElementsByTagName("div")[0].getElementsByTagName("span")[0].onmouseover  = function(){
+                this.parentNode.parentNode.getElementsByClassName("details")[0].style.display = "block";
+            }
+
+            lis[j].getElementsByTagName("div")[0].getElementsByTagName("span")[0].onmouseout  = function(){
+                this.parentNode.parentNode.getElementsByClassName("details")[0].style.display = "none";
+            }
+
+        }
+
+
+
+        
     }
 
     createM();
@@ -206,9 +272,10 @@ window.onload = function () {
 
         var bottomNav = document.getElementById("bottomNav");
         var spans     = bottomNav.getElementsByTagName("span");
+        var prev = document.getElementById("prev");
+        var next = document.getElementById("next");
         spans[1].className = 'bNavActive'
         for(var i = 1 ; i < spans.length-2 ; i++){
-            
             spans[i].onclick = function(){
                 for(var k = 0 ; k < spans.length ; k++){
                     spans[k].className = '';
@@ -221,9 +288,25 @@ window.onload = function () {
                 mainLeft.innerHTML = "";
                 createM();
             }
+            prev.onclick = function(){
+                if(i > 1){
+                    spans[i].className = '';
+                    spans[i].style.color = '';
+                    spans[--i].className = "bNavActive"
+                    mainLeft.innerHTML = "";
+                    createM();
+                }
+            }
 
-
-
+            next.onclick = function(){
+                if(i < 3){
+                    spans[i].className = '';
+                    spans[i].style.color = '';
+                    spans[++i].className = "bNavActive"
+                    mainLeft.innerHTML = "";
+                    createM();
+                }
+            }
         }
 
 
@@ -236,7 +319,7 @@ window.onload = function () {
             pleasedInput.style.border = ""
         }
 
-
+        
 
 
 
